@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+ .main{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(b1.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+ }
+ 
+ .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+ }
+
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+ }
+
+ .logo{
+    color: orange;
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding: 10px;
+   
+ }
+
+ .logo a{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ 
+ .logo a:hover{
+    color: orange;
+    transition: 0.3s ease-in-out;
+
+ }
+ .manu{
+    margin: 8px;
+    width: 300px;
+    float: left;
+    height: 70px;
+    color: orange;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial ;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 350px;
+
+}
+.srch{
+     font-family: 'time new roman';
+     width: 150px;
+     height: 30px;
+     margin-left: 100px;
+     background: transparent;
+     border: 1px solid rgb(255, 123, 0);
+     color: white;
+     border-right: none;
+     font-size: 12px;
+     float: left;
+     padding: 10;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+}
+.btn{
+    width: 50px;
+    height: 30px;
+    background: rgb(255, 165, 0);
+    color: white;
+    font-size: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(b1.jpg);
+    background-size: cover
+    ;
+}
+
+.para{
+    color: rgb(0, 0, 0);
+    background: white;
+    text-align: center;
+    font-size: 15px;
+     margin-top: 20px;
+}
+
+.para span{
+    color :red;
+    text-align: center;
+    font-size: 30px;
+  
+
+}
+
+.pho{
+    width: 30px;
+    height: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pho a{
+     color: rgb(4, 0, 255);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 1000px;
+    margin-top: 60px;
+   
+}
+
+
+.pho a:hover{
+    background: orange;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+h1{
+    color: orange;
+    font-weight: bold;
+}
+
